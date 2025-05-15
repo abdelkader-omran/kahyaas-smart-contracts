@@ -1,0 +1,23 @@
+
+name: TRIZEL Auto-ACT Pipeline
+
+on:
+  push:
+    branches:
+      - master
+      - main
+
+jobs:
+  run-auto-act:
+    runs-on: ubuntu-latest
+    name: Execute TRIZEL AI AUTO scripts
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set script permissions
+      run: chmod +x auto/RUN-ALL.sh
+
+    - name: Run AUTO-ACT scripts
+      run: ./auto/RUN-ALL.sh
