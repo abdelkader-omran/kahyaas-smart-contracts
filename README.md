@@ -1,4 +1,20 @@
 # kahyaas-smart-contracts
+# kahyaas-smart-contracts
+
+![TRIZEL Logo](https://ضع_هنا_رابط_الصورة)
+
+## Official Smart Contracts for Kahyaas (كهيعص) Digital Islamic Currency
+
+---
+
+## رمز العملة (Symbol)
+**كهيعص (KAHYAAS)**
+
+---
+
+## MIT License
+Copyright (c) 2025 abdelkader-omran  
+[عرض الرخصة MIT](./LICENSE)
 Official Smart Contracts for Kahyaas (كهيعص) Digital Islamic Currency
 # kahyaas-smart-contracts
 
